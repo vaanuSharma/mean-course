@@ -1,0 +1,13 @@
+<mat-card>
+  <mat-card-title>
+    Create Post
+  </mat-card-title>
+  <mat-card-content>
+    <mat-form-field>
+      <textarea matInput rows="6" [(ngModel)]="enteredValue"></textarea>
+    </mat-form-field>
+    <br>
+    <button mat-raised-button color="accent" (click)="onAddPost()"> Save Post </button>
+  </mat-card-content>
+
+</mat-card>
