@@ -5,10 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  storedPosts :Array<object> = [];
-
-  onPostAdded(post: object) {
-    this.storedPosts.push(post);
-  }
-}
+export class AppComponent {}
